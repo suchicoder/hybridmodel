@@ -28,22 +28,21 @@ Steps:
 
 Usage:
 
-    Ensure that all necessary libraries and dependencies are installed (requirements.txt provided).
-    Run the script main.py to execute the experiment.
+    Ensure that all necessary libraries and dependencies are installed.
+    Run the script finalcode.py to execute the experiment.
     Provide the path to the annotation data and requirement documents as input parameters.
     The output will include the extracted class diagram elements.
 
 Files:
 
-    main.py: Main script to execute the experiment.
-    preprocessing.py: Contains functions for text preprocessing.
-    feature_extraction.py: Functions for feature extraction including BERT embedding, clustering, and feature creation.
-    model_training.py: Implementation of the CRF model training.
-    result_merging.py: Code for merging the extracted class diagram elements.
-    requirements.txt: List of required libraries and dependencies.
+    finalcoded.py: Main script to execute the experiment.
+    split.py: Contains functions for requirement splitting.
+    vectorfile.py: Functions for feature extraction including BERT embedding, clustering, and feature creation.
+    merge.py: Code for merging the extracted class diagram elements.
+    relation.py: Code for merging the extracting relation between classes.
+    Rule.py: Code for extracting rule based features.
 
 Note:
 
     Ensure that the annotation data and requirement documents are appropriately formatted.
-    Adjust parameters and hyperparameters as needed for optimal performance.
     Feel free to contact the authors for any questions or assistance.
